@@ -1,7 +1,4 @@
-"""
-Does cosine similarity on text
-Source: https://en.wikipedia.org/wiki/Cosine_similarity
-"""
+
 import re
 from collections import Counter
 
