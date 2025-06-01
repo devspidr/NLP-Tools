@@ -1,0 +1,77 @@
+🔠 1️⃣ Text Preprocessing
+
+    text_cleaning.py
+
+        Remove punctuation, lowercasing, stopword removal, stemming/lemmatization.
+
+    stopwords_removal.py
+
+        Load stopwords from NLTK or custom list and remove them from texts.
+
+📊 2️⃣ Feature Extraction
+
+    bag_of_words.py
+
+        Implement a simple Bag-of-Words vectorizer.
+
+    tfidf_vectorizer.py
+
+        TF-IDF vectorizer to create weighted features.
+
+    word_embeddings.py
+
+        Load pre-trained embeddings (Word2Vec, GloVe) and get vectors for words/sentences.
+
+📚 3️⃣ Similarity Measures
+
+    cosine_similarity.py ✅ (you already have this!)
+
+    jaccard_similarity.py
+
+        Implement Jaccard similarity for sets of tokens.
+
+✂️ 4️⃣ Tokenization & Sentence Splitting
+
+    tokenizer.py
+
+        Custom word and sentence tokenizers.
+
+📈 5️⃣ Text Classification / Topic Modeling
+
+    naive_bayes_classifier.py
+
+        Naive Bayes classifier for text (spam detection, sentiment).
+
+    lda_topic_modeling.py
+
+        LDA (Latent Dirichlet Allocation) for extracting topics.
+
+🏷️ 6️⃣ NER & POS Tagging
+
+    pos_tagger.py
+
+        Part-of-speech tagging with NLTK or SpaCy.
+
+    ner_spacy.py
+
+        Named Entity Recognition using SpaCy.
+
+🧠 7️⃣ Deep Learning-based NLP
+
+    sentiment_analysis_lstm.py
+
+        Sentiment analysis using LSTM model.
+
+    transformer_embeddings.py
+
+        Use BERT/DistilBERT embeddings for text.
+
+🔎 8️⃣ Utilities & Visualizations
+
+    wordcloud_generator.py
+
+        Generate word clouds for quick insights.
+
+    frequency_analysis.py
+
+        Plot word/phrase frequency distribution
