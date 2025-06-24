@@ -6,7 +6,7 @@ text1 = "I am soundar balajij"
 text2 = "I am soundar balaji" 
 
 # Convert texts to TF-IDF vectors
-vectorizer = TfidfVectorizer()
+vectorizer = TfidfVectorizer() 
 tfidf_matrix = vectorizer.fit_transform([text1, text2])
 
 # Compute cosine similarity
